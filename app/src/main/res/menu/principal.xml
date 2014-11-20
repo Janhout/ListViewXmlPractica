@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Principal" >
+
+    <item android:id="@+id/menu_nuevo"
+        android:title="@string/nuevo_juego"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/menu_ordena_nombre"
+        android:title="@string/ordena_nombre"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/menu_ordena_puntuacion"
+        android:title="@string/ordena_puntuacion"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+    <item android:id="@+id/menu_ordena_tipo"
+        android:title="@string/ordena_tipo"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+</menu>

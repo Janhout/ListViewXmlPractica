@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="nombreI">nombre</string>
+    <string name="informacionI">informacion</string>
+    <string name="publicacionI">publicacion</string>
+    <string name="tipoI">tipo</string>
+    <string name="expansionI">expansion</string>
+    <string name="fotoI">foto</string>
+    <string name="dificultadI">dificultad</string>
+    <string name="puntuacionI">puntuacion</string>
+
+    <string name="juegoI">juego</string>
+    <string name="juegosI">juegos</string>
+
+    <string name="valoresTipoI">valoresTipo</string>
+    <string name="valoresPublicacionI">valoresPublicacion</string>
+    <string name="valoresPuntuacionI">valoresPuntuacion</string>
+    <string name="valoresDificultadI">valoresDificultad</string>
+
+    <string name="posicionI">posicion</string>
+    <string name="dialogoI">dialogo</string>
+
+    <string name="ordenarI">ordenar</string>
+    <string name="preferenciasI">preferencias</string>
+
+    <string name="nombreFichero">datosJuegos.xml</string>
+
+    <string name="codificacion">UTF-8</string>
+
+    <string name="cabeceraXML">http://xmlpull.org/v1/doc/features.html#indent-output</string>
+</resources>

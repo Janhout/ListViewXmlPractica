@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="elemento_borrado">Juego Borrado: </string>
+    <string name="elemento_nuevo">Juego Añadido</string>
+    <string name="elemento_modificado">Juego Modificado </string>
+
+    <string name="noFicheroDatos">No se encuentra el fichero de datos</string>
+    <string name="noLeerDatos">No hay datos para que cargar</string>
+
+    <string name="noLeeMemoria">No se puede leer la memoria externa</string>
+    <string name="noEscribeMemoria">"No se puede guardar en la memoria externa"</string>
+
+    <string name="errorLectura">Error de lectura</string>
+
+    <string name="juegoRepetido">Juego Repetido</string>
+</resources>

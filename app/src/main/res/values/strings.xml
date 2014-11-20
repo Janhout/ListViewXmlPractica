@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PracticaListViewXML</string>
+    <string name="titulo">Lista de Juegos</string>
+    <string name="title_activity_dialogo_insertar">DialogoInsertar</string>
+
+    <string name="nombre_juego">Nombre del juego</string>
+    <string name="info_juego">Pequeña descripción</string>
+    <string name="nuevo_juego">Nuevo Juego</string>
+    <string name="editar_juego">Editar Juego</string>
+    <string name="borrar_juego">Borrar Juego</string>
+    <string name="puntuacion">Punt.: </string>
+    <string name="puntuacion2">Puntuación: </string>
+    <string name="publicacion">Publicación: </string>
+    <string name="dificultad">Dificultad: </string>
+    <string name="tipo">Tipo: </string>
+    <string name="expansion">¿Expansión?</string>
+
+    <string name="ordena_nombre">Ordenar Por Nombre</string>
+    <string name="ordena_puntuacion">Ordenar Por Puntuación</string>
+    <string name="ordena_tipo">Ordenar Por Tipo</string>
+
+    <string name="seguro">¿Estás seguro de que quieres borrar </string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+
+    <string name="abstracto">Se identifica como juego abstracto a todo aquel juego en el que no existe un tema o ambientación asociado. Esto es: aquellos en los que los elementos de juego —fichas, dados, tablero, etc.— no representan el comportamiento y características de seres u objetos reales ni imaginarios.</string>
+    <string name="ameritrash">Literalmente: "basura americana". Categoría de juegos temáticos que se caracterizan, principalmente, por el gran despliegue de elementos (caja grande, multitud de figuras), la alta incidencia del factor suerte y la inclusión en el reglamento de numerosas excepciones específicas para elementos individuales del juego.</string>
+    <string name="estrategia">Juegos de estrategia son aquellos juegos o entretenimientos en los que, el factor de la inteligencia, habilidades técnicas y planificación y despliegue, pueden hacer predominar o impulsar al jugador hacia la victoria del juego.\nLos jugadores pueden representar el papel de un empresario, un jefe de estado, un general, o cualquier otro personaje, en los que tendrán que desarrollar una serie de estrategias, gestionando los recursos de los que se dispone, para ganar una batalla, conseguir dinero o puntos, determinada posición, etc., y así conseguir el objetivo final.</string>
+    <string name="eurogame">El tema es lo de menos, se intenta encontrar una mecánica divertida y luego se busca un tema que encaje. Las piezas tienden a ser de madera en lugar de plástico. Las reglas son sencillas pero logran una mecánica menos dependiente del azar que la mayoría de los ameritrash.  Lo que de verdad caracteriza a los Eurogames es que a) no hay eliminación de jugadores b) no hay confrontación ni puteo directo c) a veces se intenta restringir al que va mas avanzado en lugar de premiar al que va mas adelantado</string>
+    <string name="otro">Calificamos como otro a cualquier juego que no se pueda meter en ninguna de las demás categorías</string>
+    <string name="tematico">Se denomina juego temático a todo juego que tiene un tema o ambientación asociado. Esto es, a aquel cuyos elementos —fichas, dados, tablero, etc.— representan en alguna medida el comportamiento y características de seres u objetos reales o imaginarios.\nEl término antónimo a «juego temático» sería «juego abstracto».</string>
+    <string name="wargame">Un juego de guerra (del inglés wargame y éste, a su vez, del alemán Kriegspiel) es aquel que recrea un enfrentamiento armado de cualquier nivel (de escaramuza, táctico, operacional, estratégico o global) con reglas que implementan cierta simulación de la tecnología, estrategia y organización militar usada en cualquier entorno histórico, hipotético o fantástico.</string>
+
+    <string name="abstracto_tipo">Abstracto</string>
+    <string name="ameritrash_tipo">Ameritrash</string>
+    <string name="estrategia_tipo">Estrategia</string>
+    <string name="eurogame_tipo">Eurogame</string>
+    <string name="otro_tipo">Otro</string>
+    <string name="tematico_tipo">Temático</string>
+    <string name="wargame_tipo">Wargame</string>
+
+    <string name="espacio"> </string>
+    <string name="interrogacion">\?</string>
+    <string name="parentesis"> (</string>
+    <string name="parentesisB">)</string>
+</resources>
