@@ -196,7 +196,8 @@ public class Principal extends Activity {
     @Override
     protected void onStop() {
         super.onStop();
-        alerta.dismiss();
+        if(alerta!=null)
+            alerta.dismiss();
     }
 
     /**********************************************************************************************/
@@ -344,6 +345,7 @@ public class Principal extends Activity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
                 Juego juego = (Juego) adapterView.getItemAtPosition(i);
+                posicion = datosJuegos.indexOf(juego);
                 mostrarDatos(juego);
             }
         });
@@ -472,8 +474,10 @@ public class Principal extends Activity {
         alert.setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener(){
             public void onClick(DialogInterface dialog, int whichButton){
                 datosJuegos.remove(posicion);
+                guardarJuego();
                 actualizarLista();
                 tostada(getString(R.string.elemento_borrado) + getString(R.string.espacio) + nombre);
+                reiniciarDialogo();
             }
         });
         alert.setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener(){
@@ -488,6 +492,7 @@ public class Principal extends Activity {
             }
         });
         alerta = alert.create();
+        alerta.show();
         return true;
     }
 
@@ -498,8 +503,8 @@ public class Principal extends Activity {
         Bundle b = new Bundle();
         b.putSerializable(getString(R.string.valoresTipoI),valoresTipo);
         b.putSerializable(getString(R.string.valoresDificultadI),valoresDificultad);
-        b.putSerializable(getString(R.string.puntuacionI),valoresPuntuacion);
-        b.putSerializable(getString(R.string.publicacionI),valoresPublicacion);
+        b.putSerializable(getString(R.string.valoresPuntuacionI),valoresPuntuacion);
+        b.putSerializable(getString(R.string.valoresPublicacionI),valoresPublicacion);
         if(editar && editable != null){
             b.putString(getString(R.string.nombreI), editable.getNombre());
             b.putString(getString(R.string.informacionI), editable.getInformacion());
@@ -566,6 +571,7 @@ public class Principal extends Activity {
             }
         });
         alerta = alert.create();
+        alerta.show();
     }
 
     /* Método que mostrará la foto en grande con el con una descripción del tipo de juego.*/
@@ -594,6 +600,7 @@ public class Principal extends Activity {
             }
         });
         alerta = alert.create();
+        alerta.show();
     }
     /**********************************************************************************************/
     /**********************************************************************************************/

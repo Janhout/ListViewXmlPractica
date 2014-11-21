@@ -41,7 +41,7 @@
     <string name="tematico_tipo">Temático</string>
     <string name="wargame_tipo">Wargame</string>
 
-    <string name="espacio"> </string>
+    <string name="espacio">\b </string>
     <string name="interrogacion">\?</string>
     <string name="parentesis"> (</string>
     <string name="parentesisB">)</string>
