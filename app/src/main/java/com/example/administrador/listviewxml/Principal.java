@@ -76,13 +76,18 @@ public class Principal extends Activity {
                         actualizarLista();
                     }else{
                         tostada(getString(R.string.juegoRepetido));
+                        posicion = -1;
                         nuevoJuego(true, j);
                     }
                     break;
                 case EDITAR_JUEGO:
                     if(!datosJuegos.contains(j) ||
                             (posicion == datosJuegos.indexOf(j) && datosJuegos.contains(j))) {
-                        datosJuegos.set(posicion,j);
+                        if(posicion == -1){
+                            datosJuegos.add(j);
+                        }else{
+                            datosJuegos.set(posicion,j);
+                        }
                         guardarJuego();
                         actualizarLista();
                     }else{
